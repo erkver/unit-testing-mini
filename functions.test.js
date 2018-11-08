@@ -11,7 +11,7 @@ test('Should return 2', () => {
 test("Should return greeting with correct name", () => {
   const expected = 'Hello, James';
 
-  const actual = greeing('James');
+  const actual = greeting('James');
 
   expect(actual).toEqual(expected);
 });
@@ -20,7 +20,7 @@ test("Should return greeting with correct name", () => {
   const expected = "Hello, Jill";
 
   const actual = greeting("Jill");
-  
+
   expect(actual).toEqual(expected);
 });
 
